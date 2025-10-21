@@ -9,16 +9,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TestTrayWithWPF
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-    }
+namespace TestTrayWithWPF {
+   /// <summary>
+   /// Interaction logic for MainWindow.xaml
+   /// </summary>
+   public partial class MainWindow : Window {
+      public MainWindow() {
+         InitializeComponent();
+      }
+
+      private void TestBtn_Click(object sender, RoutedEventArgs e) {
+         new MainWindow().Show();
+      }
+   }
 }

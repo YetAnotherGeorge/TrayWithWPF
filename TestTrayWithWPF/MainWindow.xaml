@@ -9,5 +9,6 @@
         Background="Gray">
     <Grid>
       <TextBox Width="{StaticResource TestWidth}" Height="50"></TextBox>
-    </Grid>
+      <Button x:Name="TestBtn" Content="Open another window" HorizontalAlignment="Left" Margin="80,69,0,0" VerticalAlignment="Top" Height="53" Width="145" Click="TestBtn_Click"/>
+   </Grid>
 </Window>
